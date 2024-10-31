@@ -1,0 +1,45 @@
+.flex-container{
+    background-color: blue;
+    width: 600px;
+    height: 500px;
+    translate: 100px 100px;
+    transition-duration: 5s;
+    /* transform: rotate(30deg) translate(200px, 400px); */
+    /* transition-delay: 2s; */
+    transition-property:translate ;
+    animation: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@media screen and (min-width: 800px) {
+    .flex-container{
+        /* background-color: blue; */
+        width: 60%;
+        height: 40%;
+    }
+}   
+@keyframes example {
+    0%{
+        transform: scale(0.4);
+    }
+    15%{
+        background-color: red;
+    }
+    25%{
+        transition: all;
+    }
+    50%{
+        background-color: aquamarine;
+    }
+    75%{
+        background-color: black;
+    }
+    90%{
+        transform: scale(2);
+    }
+    100%{
+        transform: rotate(75deg) scale(2) skew(30deg);
+    } 
+    
+}

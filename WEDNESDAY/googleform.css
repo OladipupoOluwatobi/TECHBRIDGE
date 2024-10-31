@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(247, 235, 247);
+}
+
+.parent{
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    background-color: white;
+}
+
+.box1{
+    height: 200px;
+    border: 2px solid whitesmoke;
+
+}
