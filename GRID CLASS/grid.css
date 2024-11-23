@@ -1,0 +1,17 @@
+.grid-container{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 10px;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: auto;
+    /* grid-auto-rows: minmax(100px, 300px); */
+    /* grid-auto-columns: minmax(100px, 300px); */
+}
+.grid-item{
+    border: 10px solid black;
+    background: blue;
+}

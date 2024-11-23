@@ -1,0 +1,118 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0 0;
+    /* overflow: scroll; */
+    /* overflow-x: hidden; */
+    /* position: static; */
+}
+.container{
+    width: 100%;
+}
+.header{
+    margin: 0 0;
+    width: 100%;
+}
+
+.first{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin: 5px 0;
+}
+.firstrow{
+    width: 100%;
+    height: 20px;
+}
+
+.second{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(254, 33, 133);
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:normal
+}
+
+.secondrow{
+    width: 100px;
+    height: 30px;
+}
+.second1{
+    /* width: 30px;
+    height: 10px; */
+    display: inline-flex;
+    gap: 50px;
+}
+a{
+    text-decoration: none;
+}
+#secondrow2:hover{
+    background-color: white;
+    width: 90px;
+    height: 60px;
+    text-align: center;
+    color: rgb(254, 33, 133);
+    text-align: center;
+    text-decoration: none;
+}
+
+#secondrow2{
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+    width: 10px;
+}
+
+#secondrow3:hover{
+    background-color: white;
+    width: 70px;
+    height: 60px;
+    text-align: center;
+    color: rgb(254, 33, 133);
+    text-align: center;
+    text-decoration: none;
+}
+
+#secondrow3{
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+    width: 50%;
+    height: 40px;
+    padding: 8px 20px;
+}
+
+.third{
+    padding: 8px 8px;
+    width: 60%;
+    border-radius: 5px;
+    border: 0;
+    outline-color: white;
+    display: inline-flex;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+span{
+    background-color: rgb(236, 145, 26);
+    padding: 4px 4px;
+    border-radius: 5px;
+    /* margin: 0 0; */
+    color: white;
+    /* box-sizing: border-box; */
+    width: 35px;
+    text-align: center;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+
+    
+}
+
+
