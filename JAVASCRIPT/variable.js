@@ -125,27 +125,33 @@
 // console.log(greeting);
 
 
-const req = new XMLHttpRequest()
+// const req = new XMLHttpRequest()
 
-req.open("Get","https://catfact.ninja/facts?limit=15&max_length=50")
-req.send()
-console.log(req.response);
-req.responseType ="json"
-req.onload = ()=> console.log(req.response);
-;
+// req.open("Get","https://catfact.ninja/facts?limit=15&max_length=50")
+// req.send()
+// console.log(req.response);
+// req.responseType ="json"
+// req.onload = ()=> console.log(req.response);
+// ;
 
-const getFacts = new Promise((resolve, reject) => {
-    req.open("Get", "https://catfact.ninja/facts?limit=15&max_length=50")
-    req.send()
-    req.responseType = "json"
-    req.onload = () => resolve(req.response);
-    req.onerror = () => reject(req.statusText)
+// const getFacts = new Promise((resolve, reject) => {
+//     req.open("Get", "https://catfact.ninja/facts?limit=15&max_length=50")
+//     req.send()
+//     req.responseType = "json"
+//     req.onload = () => resolve(req.response);
+//     req.onerror = () => reject(req.statusText)
 
-})
+// })
 
-getFacts
-.then(result=>result.data
-)
-.then(result=>console.log(result)
-).catch(error=>console.log(error)
-)
+// getFacts
+// .then(result=>result.data
+// )
+// .then(result=>console.log(result)
+// ).catch(error=>console.log(error)
+// )
+
+let a, b, c;
+a = "John";
+b = "Doe";
+c = a + " " + b;
+console.log(c);

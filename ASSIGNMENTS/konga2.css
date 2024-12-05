@@ -5,7 +5,7 @@ body{
     overflow: scroll;
     overflow-x: hidden;
     font-family: sans-serif;
-    /* position: relative; */
+    position: static;
 }
 
 .all{
@@ -32,33 +32,48 @@ a{
 .header2{
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 20px;
     justify-content: space-around;
-    /* align-items: center; */
     height: 60px;
     margin-top: 10px;
+    margin-bottom: 10px;
     background-color: rgb(243, 24, 133);
     align-items: center;
     font-size: 13px;
     font-weight: 2px;
     line-height: 20px;
 }
+/* .header2:hover{
+    
+} */
 #header2{
     height: 35px;
 }
 #header2a{
-    width: 60px;
+    width: 50px;
+    height: 50px;
+    margin-top: 35px;
+    font-size: 12px;
+}
+#header2a:hover{
+    color: rgb(243, 24, 133);
+    background-color: white;
 }
 input[type="text"]{
-    padding: 5px 10px;
     width: 400px;
+    height: 31px;
+    border: none;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
 }
 button{
     background-color: rgb(236, 144, 5);
-    border: 0;
-    border-radius: 2px;
-    height: 30px;
+    border: none;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    height: 33px;
     width: 40px;
+    margin-left: -20px;
 }
 #icon{
     width: 20px;
@@ -66,33 +81,40 @@ button{
     padding: 4px 4px;
     border-radius: 2px;
 }
+
 #header3{
-    height: 45px;
+    height: 40px;
     text-align: center;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    gap: 50px;
+    gap: 40px;
     background-color: rgb(146, 11, 76);
     font-size: 13px;
     font-weight: 2px;
+    margin-left: 5px;
 
 }
+/* #header3:hover{
+    background-color: white;
+    color: black;
+} */
 
 .header3{
-    height: 45px;
-    display: flex;
+    height: 50px;
+    margin-top: -10px;
+    /* display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     background-color: rgb(146, 11, 76);
 }
 
 #icon2{
     background-color: rgb(245, 148, 208);
     border-radius: 50%;
-    height: 25px;
+    height: 18px;
 }
 #icon3{
     height: 25px;
@@ -122,7 +144,9 @@ span{
 #menu{
     width: 15px;
     height: 20px;
-    font-weight: bold;
+    font-weight: bolder;
+    margin-left: -35px;
+    
 }
 h4{
     font-size: 15px;
@@ -227,7 +251,7 @@ ul{
 .grid-items1{
     height: 50px;
     font-size: 15px;
-    margin: 0 5px;
+    margin: 0 8px;
 }
 .img{
     color: black;
@@ -251,8 +275,13 @@ hr{
     border: 1px solid rgb(243, 24, 133);
     /* padding: 8px 100px; */
     text-align: center;
-    width: 210px;
+    width: 200px;
     height: 38px;
     font-size: 15px;
     font-weight: bold;
+    margin-left: 5px;
+}
+
+li{
+    list-style: none;
 }
