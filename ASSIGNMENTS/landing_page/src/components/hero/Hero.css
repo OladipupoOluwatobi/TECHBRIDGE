@@ -1,0 +1,17 @@
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    gap: 60px;
+}
+
+.hero > div {
+    flex: 1;
+    
+}
+.left-angled-img{
+    width: 560px;
+    height: 732px;
+    
+}

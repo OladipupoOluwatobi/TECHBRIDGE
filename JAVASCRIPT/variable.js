@@ -150,8 +150,86 @@
 // ).catch(error=>console.log(error)
 // )
 
-let a, b, c;
-a = "John";
-b = "Doe";
-c = a + " " + b;
-console.log(c);
+// let carName = 'Volvo';
+// document.getElementById("demo").innerHTML = carName;
+// console.log(carName);
+
+// let person = "Oladipupo Oluwatobi", carName = "Volvo", price = 200
+
+// let $ = 2 + 5 + 3;
+// let y = "Tobi" + " " + "Seyi";
+// console.log($, y);
+
+// how to call a function
+
+// let x = toCelcius(77);
+// let text = "The temperature is " + x  + " " + "Celcius";
+
+// function toCelcius(fahrenheit) {
+//     return (5/9) * (fahrenheit-32);
+// }
+// console.log(text);
+
+//objects properties
+
+// const person = {
+//     firstName: "John",
+//     lastName : "Doe",
+//     age      :  50,
+//     fullName: function() {
+//         return person.firstName + " " + person.lastName;
+//     }
+// };
+// name = person.fullName();
+// delete person.nationality;
+// let x = "firstName";
+// let y = "age";
+// z = person.firstName + "is" + person.nationality["nationality2"] + "years old.";
+// console.log(person.fullName());
+
+
+// display of js objects as a string
+
+// const person = {name: "Tobi", age: 25, city: "Lagos"};
+// document.getElementById("demo").innerHTML = person.name + "," + person.age + "," + person.city;
+
+
+// display of objects in a loop
+
+// const person = {name: "Tobi", age: 25, city: "Lagos"};
+// let text = "";
+// for (let x in person) {
+//     text += person[x] + " ";
+// };
+
+// document.getElementById("demo").innerHTML = text;
+
+
+// display objects using object.values()
+
+// const person = {name: "Tobi", age: 25, city: "Lagos"};
+
+// const myArray = Object.values(person);
+
+// document.getElementById("demo").innerHTML = myArray;
+
+
+
+// using object.entries()
+
+// const fruits = {Bananas:200, Oranges:100, Apples:500};
+
+// let text = "";
+// for (let[fruit, value] of Object.entries(fruits)) {
+//     text += fruit + ": " + value + "<br>";
+// }
+// document.getElementById("demo").innerHTML = text
+
+
+// using json.stringify()
+
+const person = {name: "Tobi", age: 25, city: "Lagos"};
+
+let myString = JSON.stringify(person);
+
+document.getElementById("demo").innerHTML = myString
